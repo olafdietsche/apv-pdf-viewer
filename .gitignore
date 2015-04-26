@@ -1,0 +1,37 @@
+pdfview/jni/jbig2dec/*
+!pdfview/jni/jbig2dec/*.mk
+pdfview/jni/openjpeg/*
+!pdfview/jni/openjpeg/*.mk
+!pdfview/jni/openjpeg/config.h
+pdfview/jni/jpeg/*
+!pdfview/jni/jpeg/*.mk
+pdfview/jni/freetype/*
+!pdfview/jni/freetype/*.mk
+
+pdfview/local.properties
+pdfview/bin/
+pdfview/deps/freetype-2.5.0.1/
+pdfview/deps/jbig2dec-0.11/
+pdfview/deps/jpeg-9/
+pdfview/deps/mupdf-cff6f809da556624fb1de34725935278093182e1
+pdfview/deps/openjpeg-2.0.0
+pdfview/gen/
+pdfview/jni/mupdf/
+pdfview/jni/mupdf-apv/fitz/apv_doc_document.c
+pdfview/jni/mupdf-apv/pdf/apv_pdf_cmap_table.c
+pdfview/jni/mupdf-apv/pdf/apv_pdf_fontfile.c
+pdfview/libs/
+pdfview/obj/
+
+# Makethird
+# opj_config.h
+# out
+# pdfview.iml
+# pdfview/deps/mupdf
+# pdfview/deps/mupdf-1.1-source
+# pdfview/deps/mupdf-a242b4cf1123910c4dba18c75a77f28c5f6d8f33
+# pdfview/deps/mupdf-a3d00b2c51c1df23258f774f58268be794384c27
+# pdfview/deps/openjpeg-1.5.1
+# pdfview/jni/jpeg/Makefile.am
+# pdfview/res/drawable/Thumbs.db
+# pdfview/tests/bin

@@ -773,6 +773,7 @@ public class OpenFileActivity extends Activity implements SensorEventListener {
     	this.pageNumberInputField = new EditText(this);
     	this.pageNumberInputField.setInputType(InputType.TYPE_CLASS_NUMBER);
     	this.pageNumberInputField.setText("" + (this.pagesView.getCurrentPage() + 1));
+        this.pageNumberInputField.selectAll();
     	Button goButton = new Button(this);
     	goButton.setText(R.string.goto_page_go_button);
     	goButton.setOnClickListener(new OnClickListener() {
